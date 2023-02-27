@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__inner-left {
+  display: flex;
+}
+
+.header-logo__link {
+  margin: 85px 35px 10px 60px;
+}
+
+.header-logo__text {
+  padding-top: 84px;
+}
+
+.header__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.header-menu__list {
+  display: flex;
+  margin-top: 96px;
+}
+
+.header-menu__btn {
+  display: inline-block;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
