@@ -15,6 +15,7 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  color: #000000;
 }
 
 .container {
@@ -53,7 +54,54 @@ body {
 
 .header-menu__btn {
   display: inline-block;
-  position: absolute;
   background: #FFFFFF;
   border: 1px solid #000000;
+  cursor: pointer;
+  padding: 16px 21px;
+  max-height: 56px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.header__inner-right {
+  display: flex;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 130px;
+  line-height: 156px;
+  color: #000000;
+  margin-left: 70px;
+
+}
+
+.header__content-tags {
+  background-image: url(/images/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 675px;
+}
+
+.header__content-tags {
+  position: relative;
+}
+
+.header__content-apply {
+  position: absolute;
+  top: 50px;
+  left: 102px;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 164px;
+}
+
+.header__content-button-img{
+  padding-top: 42px;
+  padding-left: 70px;
+}
+
+.header__content-tags-right{
+  display: flex;
 }
