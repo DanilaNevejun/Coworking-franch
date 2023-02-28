@@ -13,7 +13,7 @@ a {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #000000;
 }
@@ -57,7 +57,7 @@ body {
 
 .header-menu__btn {
   display: inline-block;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   cursor: pointer;
   padding: 16px 21px;
@@ -150,7 +150,7 @@ body {
   line-height: 60px;
 }
 
-.description-content__buttons{
+.description-content__buttons {
   padding: 0 256px 0 450px;
 }
 
@@ -164,4 +164,74 @@ body {
 .description-content__btn {
   margin-top: 22px;
   margin-right: 15px;
+}
+
+.main-content__collab {
+  margin-bottom: 266px;
+}
+
+.main-content__collab--list {
+  display: flex;
+  margin: 205px 104px 170px 86px;
+  align-items: center;
+}
+
+.main-content__collab--item + .main-content__collab--item {
+  padding-left: 50px;
+}
+
+.main-content__photos--one {
+  background-image: url(../images/photo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 800px;
+}
+
+.main-content__photos--three {
+  background-image: url(../images/photo3.png);
+}
+
+.main-content__photos--text {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 696px;
+  margin: 0px 252px 0;
+  padding-top: 130px;
+}
+
+.main-content__photos {
+  margin-bottom: 20px;
+}
+
+.main-content__booking--inner {
+  max-width: 569px;
+}
+
+.main-content__booking--title--text {
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 76px;
+}
+
+.main-content__booking--title {
+  font-weight: 400;
+  font-size: 153px;
+  line-height: 153px;
+}
+
+.main-content__booking--workstation {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.price__cost{
+  vertical-align: text-top;
+}
+
+.price__date{
+  vertical-align: text-bottom;
 }
