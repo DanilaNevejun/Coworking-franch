@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -154,11 +158,16 @@ body {
   padding: 0 256px 0 450px;
 }
 
+.description-content__btn:hover {
+  background-color: rgb(255, 195, 82);
+}
+
 .description-content__btn {
   padding: 16px 33px;
   background-color: #fff;
   border: 1px solid #000000;
   border-radius: 34px;
+  transition: all .5s;
 }
 
 .description-content__btn {
@@ -202,14 +211,6 @@ body {
   padding-top: 130px;
 }
 
-.main-content__photos {
-  margin-bottom: 20px;
-}
-
-.main-content__booking--inner {
-  max-width: 569px;
-}
-
 .main-content__booking--title--text {
   font-weight: 400;
   font-size: 41px;
@@ -240,4 +241,104 @@ body {
   font-weight: 400;
   font-size: 30px;
   line-height: 24px;
+}
+
+.main-content__booking {
+  margin-bottom: 46px;
+}
+
+.main-content__booking--inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content__booking--blockquote {
+  margin-bottom: 20px;
+}
+
+.main-content__booking--workstation {
+  margin-bottom: 35px;
+}
+
+.main-content__booking--btn {
+  color: #000000;
+  background: #F8C749;
+  border: 1px solid #F8C749;
+  border-radius: 80px;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.footer-info__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 31px;
+  color: #000000;
+  max-width: 115px;
+}
+
+.footer-info__text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  max-width: 93px;
+}
+
+.footer__info {
+  margin-right: 65px;
+}
+
+.footer__inner {
+  display: flex;
+}
+
+.footer__content-text {
+  max-width: 489px;
+}
+
+.footer__content-title,
+.footer__content-img {
+  margin-bottom: 4px;
+}
+
+.footer__content-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.blockquote {
+  display: flex;
+  justify-content: space-between;
+  max-width: 569px;
+  margin-bottom: 3px;
+}
+
+.footer__list{
+  display: flex;
+  margin-bottom: 84px;
+}
+
+.footer__list-item{
+  margin-right: 35px;
+}
+
+.footer__inner-subtitle{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.footer__inner-subtitle-two{
+  margin-right: 550px;
 }
