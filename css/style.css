@@ -228,10 +228,16 @@ body {
   line-height: 24px;
 }
 
-.price__cost{
+.price__cost {
   vertical-align: text-top;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 24px;
 }
 
-.price__date{
+.price__date {
   vertical-align: text-bottom;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
 }
